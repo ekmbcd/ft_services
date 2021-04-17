@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ft_services</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			color: white;
+			font-family: sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background:  linear-gradient(to right, rgba(0,0,0,0.8) 20%,
+              rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3166&q=80);
+			background-position: center;
+			background-size: cover;
+			min-height: 100vh;
+		}
+		h1 {
+			margin: 1.5rem;
+			margin-top: -0.25em;
+			font-size: 3rem;
+		}
+		a {
+			color: aqua;
+			margin: 1rem;
+			text-decoration: none;
+		}
+		a:visited {
+			color: yellow;
+		}
+		a:hover {
+			color: orange;
+		}
+		.dash:visited {
+			color: aqua;
+		}
+		.dash:hover {
+			color: orange;
+		}
+		svg {
+			color: white;
+			transition: color 0.5s;
+			width: 6rem;
+		}
+		svg:hover {
+			color: aqua;
+		}
+	</style>
+</head>
+<body>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -200 960 960"><path fill="currentColor" d="M32 413h330v165h165V279H197L527-51H362L32 279zM598 114L763-51H598zM763 114L598 279v165h165V279l165-165V-51H763zM928 279L763 444h165z"/></svg>
+	<h1><code>ft_services</code></h1>
+	<section>
+		<a href="http://localhost/phpmyadmin/">PhpMyAdmin</a>
+		<a href="http://localhost/wordpress/">Wordpress</a>
+		<a href="http://localhost:3000">Grafana</a>
+		<a class="dash" href="http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/">Dashboard</a>
+	</section>
+</body>
+</html>

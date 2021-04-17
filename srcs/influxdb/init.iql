@@ -1,0 +1,2 @@
+CREATE DATABASE puffigialli;
+CREATE USER influxdb WITH PASSWORD 'influxdb' WITH ALL PRIVILEGES;
